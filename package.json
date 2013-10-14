@@ -1,0 +1,12 @@
+{
+  "name": "str-copy",
+  "version": "0.0.1",
+  "repo": "stephenmathieson/str-copy.c",
+  "description": "Copy a string",
+  "keywords": [],
+  "license": "MIT",
+  "src": [
+    "src/str-copy.c",
+    "src/str-copy.h"
+  ]
+}
