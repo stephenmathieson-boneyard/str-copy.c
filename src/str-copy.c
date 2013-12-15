@@ -10,9 +10,9 @@
 #include <stdlib.h>
 #include "str-copy.h"
 
-char *str_copy(char *str) {
+char *str_copy(const char *str) {
   int len = strlen(str) + 1;
-  char *buf = (char *) malloc(len * sizeof(char *));
+  char *buf = malloc(len);
   if (NULL == buf) return NULL;
   memcpy(buf, str, len);
   return buf;

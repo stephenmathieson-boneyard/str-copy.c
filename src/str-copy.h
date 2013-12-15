@@ -7,9 +7,9 @@
 //
 
 
-#ifndef STR_COPY
-#define STR_COPY
+#ifndef STR_COPY_H
+#define STR_COPY_H 1
 
-char *str_copy(char *);
+char *str_copy(const char *);
 
 #endif

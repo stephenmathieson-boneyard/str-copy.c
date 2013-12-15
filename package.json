@@ -3,10 +3,12 @@
   "version": "0.0.2",
   "repo": "stephenmathieson/str-copy.c",
   "description": "Copy a string",
-  "keywords": [],
   "license": "MIT",
   "src": [
     "src/str-copy.c",
     "src/str-copy.h"
-  ]
+  ],
+  "development": {
+    "stephenmathieson/describe.h": "1.0.0"
+  }
 }
