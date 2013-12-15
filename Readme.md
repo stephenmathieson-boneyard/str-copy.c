@@ -11,7 +11,7 @@
 
 ## API
 
-### `char *str_copy(char *str)`
+### `char *str_copy(const char *str)`
 
   Create a copy of `str`
 

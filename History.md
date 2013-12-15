@@ -1,7 +1,12 @@
 
+# 0.0.3
+
+  * Use `const` char pointers
+  * Refactor tests
+
 # 0.0.2
 
-  * return `NULL` on `malloc` errors
+  * Return `NULL` on `malloc` errors
 
 # 0.0.1
 
