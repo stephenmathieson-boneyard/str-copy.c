@@ -12,7 +12,7 @@
 
 char *str_copy(const char *str) {
   int len = strlen(str) + 1;
-  char *buf = malloc(len);
+  char *buf = (char *) malloc(len);
   if (NULL == buf) return NULL;
   memcpy(buf, str, len);
   return buf;
