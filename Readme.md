@@ -1,4 +1,6 @@
 
+# DEPRECATED: Use [clibs/strdup](https://github.com/clibs/strdup) instead.
+
 # str-copy
 
   Copy a string because you're too cool for `strdup`
